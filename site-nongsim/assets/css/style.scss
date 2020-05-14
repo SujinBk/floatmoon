@@ -68,7 +68,6 @@
 /* 배너 */
 #banner {
     position: relative;
-
     .swiper-slide {
         h2 {
             position: absolute;
@@ -80,7 +79,6 @@
             white-space: nowrap;
         }
     }
-
     .btn-quick {
         a {
             position: absolute;
@@ -92,7 +90,6 @@
             margin-left: -25px;
             background: #96c11f;
             box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-
             img {
                 width: 30px;
                 transform: rotate(-90deg);
@@ -100,7 +97,6 @@
             }
         }
     }
-
     .swiper-pagination {
         .icon-pause {
             position: absolute;
@@ -109,7 +105,6 @@
             margin-left: 78px;
             width: 30px;
         }
-
         .icon-play {
             position: absolute;
             left: 50%;
