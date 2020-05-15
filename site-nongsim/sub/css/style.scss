@@ -1,0 +1,74 @@
+/* 레이아웃 */
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* 헤더 */
+#header {
+    .he-top {
+        height: 50px;
+        background: #f4f4f4;
+
+        .he-conteiner {
+            .tnav {
+                display: flex;
+                justify-content: center;
+
+                li {
+                    padding: 15px 50px;
+
+                    a {
+                        font-size: 13px;
+                        font-weight: 600;
+                    }
+
+                    a:hover {
+                        color: #999;
+
+                    }
+
+                }
+            }
+        }
+    }
+    .he-bom { 
+        
+        .header { 
+            display: flex;
+            justify-content: space-between;
+            h1 { padding: 20px;}
+            .nav { 
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        font-size: 17px;
+                        padding: 28px 24px 24px 25px;
+                    }
+                    li.live { 
+
+                        a { 
+                            padding: 3px 20px 6px 20px;
+                            display: inline-block;
+                            border: 1px solid #000;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+            }
+            .side-nav { 
+                display: flex;
+                justify-content: space-between;
+                li { 
+                    margin: 15px;
+                }
+            }
+        }
+    }
+
+}
+

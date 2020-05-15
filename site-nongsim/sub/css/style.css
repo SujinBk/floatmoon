@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* 레이아웃 */
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* 헤더 */
+#header .he-top {
+  height: 50px;
+  background: #f4f4f4;
+}
+
+#header .he-top .he-conteiner .tnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#header .he-top .he-conteiner .tnav li {
+  padding: 15px 50px;
+}
+
+#header .he-top .he-conteiner .tnav li a {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#header .he-top .he-conteiner .tnav li a:hover {
+  color: #999;
+}
+
+#header .he-bom .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .he-bom .header h1 {
+  padding: 20px;
+}
+
+#header .he-bom .header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .he-bom .header .nav ul li {
+  font-size: 17px;
+  padding: 28px 24px 24px 25px;
+}
+
+#header .he-bom .header .nav ul li.live a {
+  padding: 3px 20px 6px 20px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+#header .he-bom .header .side-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .he-bom .header .side-nav li {
+  margin: 15px;
+}
+/*# sourceMappingURL=style.css.map */
