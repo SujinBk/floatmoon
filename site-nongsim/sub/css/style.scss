@@ -52,10 +52,25 @@
                     li.live { 
 
                         a { 
+                            span{
                             padding: 3px 20px 6px 20px;
                             display: inline-block;
                             border: 1px solid #000;
                             border-radius: 20px;
+                            &::before {
+                                content: '';
+                                position: absolute;
+                                bottom: 0;left: 0;
+                                width: 0;
+                                height: 0;
+                                border-top: 2px solid #d83832;
+                                transform: translateX(-50%);
+                                transition: all 0.2s;
+                            }
+                            &:hover span::before{
+                                width: 100%;
+                            }
+                            }
                         }
                     }
                 }

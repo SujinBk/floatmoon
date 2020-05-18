@@ -63,11 +63,29 @@
   padding: 28px 24px 24px 25px;
 }
 
-#header .he-bom .header .nav ul li.live a {
+#header .he-bom .header .nav ul li.live a span {
   padding: 3px 20px 6px 20px;
   display: inline-block;
   border: 1px solid #000;
   border-radius: 20px;
+}
+
+#header .he-bom .header .nav ul li.live a span::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 2px solid #d83832;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#header .he-bom .header .nav ul li.live a span:hover span::before {
+  width: 100%;
 }
 
 #header .he-bom .header .side-nav {
