@@ -255,23 +255,29 @@
 
     /*컨텐츠1*/
     #content1 {
+        width: 1200px;
         height: 600px;
-        margin-top: 150px;
+        margin: 150px auto 0;
 
         .con-tit {
-            margin: 0 74px;
-            padding: 0 30px;
+
+            position: relative;
 
             .con-dot {
                 width: 36px;
                 height: 36px;
                 border-radius: 50%;
                 background: #96c11f;
+                position: absolute;
+                left: 20px;
+                top: -30px;
             }
 
             h2 {
-                font-size: 25px;
+
+                font-size: 32px;
                 font-weight: 700;
+                padding: 30px 0 0 20px;
             }
         }
 
@@ -281,19 +287,19 @@
 
             .con-img {
                 background-image: url(../img/cont.jpg);
-                width: 65%;
+                width: 75%;
                 height: 470px;
                 background-position: center;
                 background-size: cover;
                 position: absolute;
-                right: 0;
+                right: -70px;
                 top: 0;
             }
 
             .item-text {
                 position: absolute;
                 top: 30px;
-                left: 0;
+                left: -100px;
                 width: 450px;
                 height: 200px;
                 background: #fff;
@@ -302,10 +308,21 @@
                 box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2);
 
                 strong {
+                    position: relative;
                     color: #539a00;
                     font-size: 28px;
                     display: inline-block;
-                    border-bottom: 2px solid #539a00;
+
+                    &::before {
+                        content: '';
+                        height: 1px;
+                        width: 400px;
+                        background-color: #539a00;
+                        position: absolute;
+                        right: -420px;
+                        top: 50%;
+
+                    }
                 }
 
                 p {
@@ -318,16 +335,17 @@
 
     /*컨텐츠2*/
     #content2 {
-        margin-bottom: 100px;
+        width: 1200px;
+        margin: 0 auto 100px;
         padding: 0 40px;
 
         .con2-text {
-            margin: 50px;
+            margin: 30px;
 
             p {
                 font-size: 20px;
                 text-align: center;
-                padding: 60px 30px;
+                padding: 70px 30px;
                 border-right: 2px solid #e4e4e4;
                 border-bottom: 2px solid #e4e4e4;
             }
@@ -335,39 +353,48 @@
     }
 
     /*article*/
+    #content2 {
+        width: 1200px;
+        margin: 0 auto;
+        #article {
+            margin-top: 100px;
+            padding-right: 30px;
+            height: 300px;
+            position: relative;
 
-    #article {
-        padding: 0 90px;
-        height: 300px;
-
-        .art-t {
-            font-size: 16px;
-            color: #666;
-
-            table {
-               
-                border-top: 2px solid #000;
-                width: 60%;
+            .art-t {
                 font-size: 16px;
-                float: right;
+                color: #666;
+              
 
-                th,
-                td {
-                    border-bottom: solid 1px #e5e5e5;
-                    padding: 30px;
-                }
+                table {
+                    border-top: 2px solid #000;
+                    width: 60%;
+                    font-size: 16px;
+                    float: right;
+                    
 
-                td {
-                    position: relative;
-                    color: #666;
-
-                    .tbtn {
-                        padding: 5px;
-                        float: right;
-                        border: 1px solid #999;
-                        color: #999;
+                    th,
+                    td {
+                        border-bottom: solid 1px #e5e5e5;
+                        padding: 30px;
                     }
 
+                    td {
+                        color: #666;
+
+                        .tbtn {
+                            padding: 5px;
+                            float: right;
+                            border: 1px solid #999;
+                            color: #999;
+                        }
+
+                    }
+                }
+                div{
+                    position: absolute;
+                    bottom: 0;right: 50%;
                 }
             }
         }
@@ -376,45 +403,52 @@
 
 // footer-nav
 
-#fnav {
-    img{
-        width: 100px;
+.swiper-container{
+    img {
+        width: 500px;
+        height: 300px;
     }
 }
 
 // footer
-#footer{
+#footer {
     overflow: hidden;
     width: 1200px;
     padding: 30px 0;
     margin: 0 auto;
-    color:#666;
+    color: #666;
 
-    .left{
+    .left {
         float: left;
-        .left1{
+
+        .left1 {
             margin-bottom: 20px;
-            li{
+
+            li {
                 display: inline;
                 font-size: 15px;
                 margin-right: 20px;
                 position: relative;
 
-                strong.st1{
-                    color:#539a00;
+                strong.st1 {
+                    color: #539a00;
                 }
-                strong.st2{
-                    color:#ff6216;
+
+                strong.st2 {
+                    color: #ff6216;
                 }
-            }&::after{
+            }
+
+            &::after {
                 content: '';
                 width: 1px;
                 height: 10px;
                 background: #ccc;
-                position: absolute; 
-                right: 12px;top: 7px;
+                position: absolute;
+                right: 12px;
+                top: 7px;
             }
         }
-        
+
     }
 }
