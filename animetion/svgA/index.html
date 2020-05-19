@@ -46,6 +46,7 @@
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gaegu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -108,8 +109,16 @@
                 </div>
                 <!-- //Intro0 -->
                 <style>
-                    .svgBox{background: #f4f8fa; padding: 30px;}
-                    svg{width: 160px;height: 160px; background: #ffebee;}
+                    .svgBox {
+                        background: #f4f8fa;
+                        padding: 30px;
+                    }
+
+                    svg {
+                        width: 160px;
+                        height: 160px;
+                        background: #ffebee;
+                    }
                 </style>
                 <!-- Intro1 -->
                 <div class="bs-docs-section">
@@ -170,7 +179,7 @@
                         </svg>
                         <svg>
                             <rect class="rect1" fill="#f48fb1" width="100" height="100" x="30" y="30" stroke="#880e4f"
-                                stroke-width="5"rx="20" ry="20" />
+                                stroke-width="5" rx="20" ry="20" />
                         </svg>
                     </div>
                     <pre class="line-numbers language-markup"><code>&lt;div class="svgBox"&gt;
@@ -197,18 +206,18 @@
                     <h2 id="intro2" class="page-header">circle</h2>
                     <h4>샘플</h4>
                     <div class="svgBox">
-                    <svg class="svg">
-                        <circle fill="#f48fb1" r="60" cx="80"cy="80"/>
-                    </svg>
-                    <svg class="svg">
-                        <circle fill="#f48fb1" r="60" cx="80"cy="80" stroke="#880e4f"stroke-width="5" />
-                    </svg>
-                    <svg class="svg">
-                        <ellipse fill="#f48fb1" rx="60" ry="40"cx="80"cy="80"/>
-                    </svg>
-                    <svg class="svg">
-                        <ellipse fill="#f48fb1"  rx="60" ry="40"cx="80"cy="80" stroke="#880e4f"stroke-width="5" />
-                    </svg>
+                        <svg class="svg">
+                            <circle fill="#f48fb1" r="60" cx="80" cy="80" />
+                        </svg>
+                        <svg class="svg">
+                            <circle fill="#f48fb1" r="60" cx="80" cy="80" stroke="#880e4f" stroke-width="5" />
+                        </svg>
+                        <svg class="svg">
+                            <ellipse fill="#f48fb1" rx="60" ry="40" cx="80" cy="80" />
+                        </svg>
+                        <svg class="svg">
+                            <ellipse fill="#f48fb1" rx="60" ry="40" cx="80" cy="80" stroke="#880e4f" stroke-width="5" />
+                        </svg>
                     </div>
                     <pre class="line-numbers language-markup"><code>&lt;div class="svgBox"&gt;
 &lt;svg class="svg"&gt;
@@ -227,24 +236,24 @@
                 </div>
                 <!-- //Intro2 -->
 
-                   <!-- Intro3 -->
-                   <div class="bs-docs-section">
+                <!-- Intro3 -->
+                <div class="bs-docs-section">
                     <h2 id="intro3" class="page-header">polygon</h2>
                     <h4>샘플</h4>
                     <div class="svgBox">
-                    <svg class="svg">
-                        <polygon fill="#f48fb1" points="137,146 8.545,107 107.086,15">
-                    </svg>
-                    <svg class="svg">
-                        <polygon fill="#f48fb1"points="104,145 24,126 17,43 94.157,12 147,75">
-                    </svg>
-                    <svg class="svg">
-                        <polygon fill="#f48fb1" points="130,130 61,148 12,97 31,29 99,11 148,62">
-                    </svg>
-                    <svg class="svg">
-                        <polygon fill="#f48fb1" points="131,135 85,117 45,144 48,96 10,66 57,54 74,9 
-                        100,49 148,51 117,88"/>
-                    </svg>
+                        <svg class="svg">
+                            <polygon fill="#f48fb1" points="137,146 8.545,107 107.086,15">
+                        </svg>
+                        <svg class="svg">
+                            <polygon fill="#f48fb1" points="104,145 24,126 17,43 94.157,12 147,75">
+                        </svg>
+                        <svg class="svg">
+                            <polygon fill="#f48fb1" points="130,130 61,148 12,97 31,29 99,11 148,62">
+                        </svg>
+                        <svg class="svg">
+                            <polygon fill="#f48fb1" points="131,135 85,117 45,144 48,96 10,66 57,54 74,9 
+                        100,49 148,51 117,88" />
+                        </svg>
                     </div>
                     <pre class="line-numbers language-markup"><code>&lt;div class="svgBox"&gt;
 &lt;svg class="svg"&gt;
@@ -264,6 +273,230 @@
                 </div>
                 <!-- //Intro3 -->
 
+                <!-- Intro4 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro4" class="page-header">line, polyline</h2>
+                    <div class="svgBox">
+                        <svg class="svg">
+                            <line x1="0" y1="0" x2="160" y2="160" stroke="#880e4f" stroke-width="2" />
+                        </svg>
+                        <svg class="svg">
+                            <line x1="80" y1="80" x2="160" y2="160" stroke="#880e4f" stroke-width="2" />
+                        </svg>
+                        <svg class="svg">
+                            <polyline fill="none" stroke="#880e4f" stroke-width="2" points="23,22 136,21 17,102 
+                       138,132 49,46 " />
+                        </svg>
+                        <svg class="svg">
+                            <polyline fill="none" stroke="#880e4f" stroke-width="2" points="30,27 43,30 135,15 88,69 
+                        30, 90 81,118 116,65 92,53 " />
+                        </svg>
+                    </div>
+                    <pre class="line-numbers language-markup"><code>&lt;div class="svgBox"&gt;
+    &lt;svg class="svg"&gt;
+        &lt;line x1="0" y1="0" x2="160" y2="160" stroke="#880e4f" stroke-width="2" /&gt;
+    &lt;/svg&gt;
+    &lt;svg class="svg"&gt;
+        &lt;line x1="80" y1="80" x2="160" y2="160" stroke="#880e4f" stroke-width="2" /&gt;
+    &lt;/svg&gt;
+    &lt;svg class="svg"&gt;
+        &lt;polyline fill="none" stroke="#880e4f" stroke-width="2" points="23,22 136,21 17,102 
+   138,132 49,46 " /&gt;
+    &lt;/svg&gt;
+    &lt;svg class="svg"&gt;
+        &lt;polyline fill="none" stroke="#880e4f" stroke-width="2" points="30,27 43,30 135,15 88,69 
+    30, 90 81,118 116,65 92,53 " /&gt;
+    &lt;/svg&gt;
+&lt;/div&gt;</code></pre>
+
+                </div>
+                <!-- //Intro4 -->
+
+                <!-- Intro5 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro5" class="page-header">path</h2>
+                    <div class="svgBox">
+                        <svg class="svg">
+                            <path fill="none" stroke="#880e4f" stroke-width="2"
+                                d="M7.155,153.304c0-69.042,59.743-124.91,133.574-124.91" />
+                        </svg>
+                        <svg class="svg">
+                            <path fill="none" stroke="#880e4f" stroke-width="2" d="M32.787,34.71c25.421-28.811,69.385-31.558,98.195-6.137
+	c23.048,20.337,25.246,55.507,4.909,78.556c-16.27,18.438-44.406,20.197-62.845,3.928c-14.751-13.016-16.158-35.525-3.142-50.276
+	c10.413-11.801,28.419-12.926,40.22-2.514c9.441,8.33,10.342,22.736,2.012,32.176c-6.664,7.553-18.189,8.272-25.741,1.608
+	c-6.042-5.331-6.619-14.55-1.287-20.592c4.265-4.834,11.641-5.295,16.475-1.03c3.866,3.412,4.235,9.313,0.823,13.18" />
+                        </svg>
+                        <svg class="svg">
+                            <path fill="none" stroke="#880e4f" stroke-width="2" d="M107.71,108.93c20.695,21.416-16.03,40.446-22.036,11.417
+                        c6.006,29.029-35.178,25.183-24.709-2.308c-10.469,27.49-43.035,1.987-19.54-15.302C17.929,120.026,4.32,80.967,33.259,79.302
+                        C4.32,80.967,13.989,40.75,39.06,55.171C13.989,40.75,43.866,12.144,56.986,38.008c-13.12-25.864,27.479-33.775,24.36-4.747
+                        c3.119-29.028,41.551-13.735,23.059,9.176c18.492-22.911,42.555,10.732,14.438,20.187c28.117-9.454,30.171,31.858,1.231,24.788
+                        C149.014,94.481,128.405,130.346,107.71,108.93z" />
+                        </svg>
+                        <svg class="svg">
+                            <path fill="none" stroke="#880e4f" stroke-width="2" d="M24.769,2.544c4.435,4.738-14.547,22.505-10.112,27.243
+		c4.434,4.737,23.415-13.031,27.849-8.294S27.959,43.999,32.394,48.735c4.435,4.738,23.417-13.03,27.851-8.292
+		c4.436,4.738-14.546,22.506-10.111,27.245c4.435,4.737,23.416-13.031,27.851-8.293c4.435,4.738-14.546,22.506-10.111,27.244
+		c4.434,4.736,23.416-13.031,27.85-8.294c4.434,4.737-14.549,22.505-10.115,27.241c4.436,4.738,23.417-13.03,27.852-8.292
+		c4.438,4.739-14.544,22.508-10.107,27.247c4.436,4.738,23.417-13.029,27.853-8.291c4.438,4.741-14.544,22.509-10.106,27.25
+		c4.438,4.742,23.421-13.026,27.859-8.284" />
+                        </svg>
+                        <svg class="svg">
+                            <path fill="none" stroke="#880e4f" stroke-width="2" d="M134.07,138.821C89.143,90.41,82.4,93.688,94.319,158.146
+		C82.4,93.688,74.958,92.8,50.431,152.911C74.958,92.8,69.176,88.029,16.339,124.779c52.837-36.75,50.553-43.889-13.47-42.098
+		c64.022-1.791,65.96-9.033,11.427-42.697C68.83,73.649,74.375,68.605,46.995,10.244c27.38,58.361,34.771,57.116,43.586-7.342
+		c-8.814,64.458-1.923,67.407,40.636,17.388C88.658,70.309,92.861,76.516,156,56.887c-63.139,19.629-62.959,27.123,1.063,44.187
+		C93.041,84.01,89.143,90.41,134.07,138.821z" />
+                        </svg>
+                        <svg class="svg">
+                            <polyline fill="none" stroke="#880e4f" stroke-width="2" points="47.26,20.766 35.564,37.864 54.273,28.971 42.577,46.069 
+                            61.287,37.177 49.59,54.274 68.301,45.383 56.604,62.481 75.315,53.59 63.619,70.688 82.325,61.793 70.629,78.891 89.335,69.996 
+                            77.643,87.096 96.351,78.203 84.655,95.303 103.368,86.412 91.675,103.514 110.386,94.625 98.692,111.725 117.405,102.836 
+                            105.712,119.939 124.431,111.057 112.741,128.164 	" />
+                        </svg>
+                    </div>
+                    <pre class="line-numbers language-markup"><code>&lt;div class="svgBox"&gt;
+    &lt;svg class="svg"&gt;
+        &lt;path fill="none" stroke="#880e4f" stroke-width="2"
+            d="M7.155,153.304c0-69.042,59.743-124.91,133.574-124.91" /&gt;
+    &lt;/svg&gt;
+    &lt;svg class="svg"&gt;
+        &lt;path fill="none" stroke="#880e4f" stroke-width="2" d="M32.787,34.71c25.421-28.811,69.385-31.558,98.195-6.137
+c23.048,20.337,25.246,55.507,4.909,78.556c-16.27,18.438-44.406,20.197-62.845,3.928c-14.751-13.016-16.158-35.525-3.142-50.276
+c10.413-11.801,28.419-12.926,40.22-2.514c9.441,8.33,10.342,22.736,2.012,32.176c-6.664,7.553-18.189,8.272-25.741,1.608
+c-6.042-5.331-6.619-14.55-1.287-20.592c4.265-4.834,11.641-5.295,16.475-1.03c3.866,3.412,4.235,9.313,0.823,13.18" /&gt;
+    &lt;/svg&gt;
+    &lt;svg class="svg"&gt;
+        &lt;path fill="none" stroke="#880e4f" stroke-width="2" d="M107.71,108.93c20.695,21.416-16.03,40.446-22.036,11.417
+    c6.006,29.029-35.178,25.183-24.709-2.308c-10.469,27.49-43.035,1.987-19.54-15.302C17.929,120.026,4.32,80.967,33.259,79.302
+    C4.32,80.967,13.989,40.75,39.06,55.171C13.989,40.75,43.866,12.144,56.986,38.008c-13.12-25.864,27.479-33.775,24.36-4.747
+    c3.119-29.028,41.551-13.735,23.059,9.176c18.492-22.911,42.555,10.732,14.438,20.187c28.117-9.454,30.171,31.858,1.231,24.788
+    C149.014,94.481,128.405,130.346,107.71,108.93z" /&gt;
+    &lt;/svg&gt;
+    &lt;svg class="svg"&gt;
+        &lt;path fill="none" stroke="#880e4f" stroke-width="2" d="M24.769,2.544c4.435,4.738-14.547,22.505-10.112,27.243
+c4.434,4.737,23.415-13.031,27.849-8.294S27.959,43.999,32.394,48.735c4.435,4.738,23.417-13.03,27.851-8.292
+c4.436,4.738-14.546,22.506-10.111,27.245c4.435,4.737,23.416-13.031,27.851-8.293c4.435,4.738-14.546,22.506-10.111,27.244
+c4.434,4.736,23.416-13.031,27.85-8.294c4.434,4.737-14.549,22.505-10.115,27.241c4.436,4.738,23.417-13.03,27.852-8.292
+c4.438,4.739-14.544,22.508-10.107,27.247c4.436,4.738,23.417-13.029,27.853-8.291c4.438,4.741-14.544,22.509-10.106,27.25
+c4.438,4.742,23.421-13.026,27.859-8.284" /&gt;
+    &lt;/svg&gt;
+    &lt;svg class="svg"&gt;
+        &lt;path fill="none" stroke="#880e4f" stroke-width="2" d="M134.07,138.821C89.143,90.41,82.4,93.688,94.319,158.146
+C82.4,93.688,74.958,92.8,50.431,152.911C74.958,92.8,69.176,88.029,16.339,124.779c52.837-36.75,50.553-43.889-13.47-42.098
+c64.022-1.791,65.96-9.033,11.427-42.697C68.83,73.649,74.375,68.605,46.995,10.244c27.38,58.361,34.771,57.116,43.586-7.342
+c-8.814,64.458-1.923,67.407,40.636,17.388C88.658,70.309,92.861,76.516,156,56.887c-63.139,19.629-62.959,27.123,1.063,44.187
+C93.041,84.01,89.143,90.41,134.07,138.821z" /&gt;
+    &lt;/svg&gt;
+    &lt;svg class="svg"&gt;
+        &lt;polyline fill="none" stroke="#880e4f" stroke-width="2" points="47.26,20.766 35.564,37.864 54.273,28.971 42.577,46.069 
+        61.287,37.177 49.59,54.274 68.301,45.383 56.604,62.481 75.315,53.59 63.619,70.688 82.325,61.793 70.629,78.891 89.335,69.996 
+        77.643,87.096 96.351,78.203 84.655,95.303 103.368,86.412 91.675,103.514 110.386,94.625 98.692,111.725 117.405,102.836 
+        105.712,119.939 124.431,111.057 112.741,128.164 	"/&gt;
+    &lt;/svg&gt;
+&lt;/div&gt;</code></pre>
+                </div>
+                <!-- //Intro5 -->
+
+
+                <style>
+                    .text-wrap {
+                        background-color: #ffebee;
+                        width: 160px;
+                        height: 160px;
+                    }
+
+                    .text-clip {
+                        width: 160px;
+                        height: 160px;
+                        line-height: 170px;
+                        text-align: center;
+                        font-size: 70px;
+                        font-family: "Black Han Sans";
+                        -webkit-text-fill-color: transparent;
+                        -webkit-background-clip: text;
+                        background-image: url(../../parallax/img/img02.jpg);
+                    }
+
+                    .text-clip.t2 {
+                        background-image: linear-gradient(60deg, #ff5858 0%, #f09819 100%);
+                    }
+                    .text-clip3 {
+                        width: 160px;
+                        height: 160px;
+                        line-height: 170px;
+                        text-align: center;
+                        font-size: 70px;
+                        font-family: "Black Han Sans";
+                        background-color: #ffebee;
+                        -webkit-text-fill-color: transparent;
+                        -webkit-text-stroke: 2px #ff5858;
+                    }
+                </style>
+                <!-- Intro6 -->
+                <div class="bs-docs-section">
+                    <h2 id="intro6" class="page-header">clip-path</h2>
+                    <div class="svgBox">
+                        <svg class="svg">
+                            <image xlink:href="../../assets/img/svg-french-fries.svg" width="160" heigth="160" />
+                        </svg>
+                        <svg class="svg">
+                            <image xlink:href="../../assets/img/svg-french-fries.svg" width="160" heigth="160"
+                                clip-path="circle(50px at center)" />
+                        </svg>
+                        <svg class="svg">
+                            <clipPath id="slip1">
+                                <polygon fill="none" points="100.347,101.229 79.55,88.918 65.639,108.681 62.298,84.745 
+	38.173,86.191 54.804,68.655 38.632,50.695 62.711,52.764 66.669,28.923 80.065,49.039 101.174,37.269 93.798,60.284 
+	116.161,69.448 93.568,78.031 " />
+                            </clipPath>
+                            <image xlink:href="../../assets/img/svg-french-fries.svg" width="160" heigth="160"
+                                clip-path="url(#slip1)" />
+                        </svg>
+                        <svg class="svg">
+                            <clipPath id="slip2">
+                                <path fill="none"
+                                    d="M105.953,98.53c13.798,10.766-12.023,28.207-16.859,11.387
+                                c4.836,16.82-26.307,15.753-20.333-0.696c-5.975,16.449-30.542-2.718-16.04-12.515c-14.502,9.797-23.111-20.152-5.621-19.552
+                                c-17.49-0.6-6.852-29.888,6.946-19.122C40.249,47.266,66.07,29.825,70.905,46.644C66.07,29.825,97.212,30.891,91.237,47.34
+                                c5.975-16.449,30.543,2.719,16.041,12.515c14.502-9.796,23.11,20.152,5.62,19.552C130.389,80.007,119.751,109.296,105.953,98.53z" />
+                            </clipPath>
+                            <image xlink:href="../../assets/img/svg-french-fries.svg" width="160" heigth="160"
+                                clip-path="url(#slip2)" />
+                        </svg>
+                        </svg>
+                        <svg class="svg">
+                            <text x="10" y="105" font-size="70" font-family="Black Han Sans">SVG</text>
+                        </svg>
+                        <svg class="svg">
+                            <pattern id="pattern1" patternUnits="useSpaceOnUse" width="160" height="160">
+                                <image xlink:href="../../assets/img/svg-french-fries.svg" width="100%" heigth="100%" />
+                            </pattern>
+                            <text x="10" y="105" font-size="70" font-family="Black Han Sans"
+                                fill="url(#pattern1)">SVG</text>
+                        </svg>
+                        <div class="text-wrap">
+                            <div class="text-clip">
+                                SVG
+                            </div>
+                        </div>
+                        <div class="text-wrap">
+                            <div class="text-clip t2">
+                                SVG
+                            </div>
+                        </div>
+                        <div class="text-wrap">
+                            <div class="text-clip3">
+                                SVG
+                            </div>
+                        </div>
+                    </div>
+                    <pre class="line-numbers language-markup"><code></code></pre>
+                </div>
+                <!-- //Intro6 -->
+
+
+
 
             </div>
             <!-- //col-md-9 -->
@@ -275,6 +508,10 @@
                     <ul class="nav bs-sidenav">
                         <li><a href="#intro1">rect</a></li>
                         <li><a href="#intro2">circle</a></li>
+                        <li><a href="#intro3">polygon</a></li>
+                        <li><a href="#intro4">line, polyline</a></li>
+                        <li><a href="#intro5">path</a></li>
+                        <li><a href="#intro6">clip-path</a></li>
                     </ul>
                 </div>
             </div>
