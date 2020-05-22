@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAEA,AAAA,KAAK,AAAA,CACD,QAAQ,CAAE,QAAQ,CAUrB,AAXD,AAEI,KAFC,CAED,CAAC,AAAA,CACG,QAAQ,CAAE,QAAQ,CAClB,IAAI,CAAE,CAAC,CAAC,GAAG,CAAE,CAAC,CACd,MAAM,CAAE,cAAc,CACtB,UAAU,CAAE,IAAI,CAChB,WAAW,CAAE,EAAE,CACf,KAAK,CAAE,KAAK,CACZ,UAAU,CAAE,MAAM,CACrB",
     "sources": [
-        "../../test/style.scss"
+        "../test/style.scss"
     ],
     "names": [],
     "file": "style.min.css"

@@ -627,6 +627,24 @@ function out(){
 }
 // =============== 11 ===============================//
 //속성 애니메이션(2바퀴) --> 무한으로 움직이기 --> 10분 뒤 에 사라지게
+$(".btn11 > button").click(function(){
+
+    
+    function loop(){
+        $(".circle11 > div")
+        .animate({left:leftWidth},1000,"easeOutQuint")
+        .animate({left:0},1000,"easeOutQuint",loop);
+
+        setTimeout(out,2000) 
+    };
+
+        loop();
+    });
+
+    
+function out(){
+    $(".circle11 > div").hide();
+}
     </script>
 </body>
 
